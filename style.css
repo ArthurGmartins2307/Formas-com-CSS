@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+       header{
+        background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+        font-size: large;
+        align-items: center;
+}
+        header h1{
+            color: rgb(210, 210, 210);
+            text-decoration: none;
+            text-decoration-line: none;
+            text-emphasis: none;
+        }
+
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        /* 1. Carro Esportivo */
+        .car {
+            position: relative;
+            width: 300px;
+            height: 120px;
+            margin: 40px auto;
+        }
+        
+        .car-body {
+            position: absolute;
+            width: 250px;
+            height: 60px;
+            background-color: #e74c3c;
+            border-radius: 15px 15px 0 0;
+            top: 40px;
+            left: 25px;
+        }
+        
+        .car-roof {
+            position: absolute;
+            width: 120px;
+            height: 40px;
+            background-color: #e74c3c;
+            border-radius: 10px 10px 0 0;
+            top: 20px;
+            left: 110px;
+        }
+        
+        .car-window {
+            position: absolute;
+            width: 110px;
+            height: 30px;
+            background-color: #3498db;
+            border-radius: 8px 8px 0 0;
+            top: 25px;
+            left: 115px;
+        }
+        
+        .car-wheel {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: #333;
+            border-radius: 50%;
+            top: 80px;
+        }
+        
+        .car-wheel::before {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            background-color: #555;
+            border-radius: 50%;
+            top: 7.5px;
+            left: 7.5px;
+        }
+        
+        .front-wheel {
+            left: 220px;
+        }
+        
+        .rear-wheel {
+            left: 40px;
+        }
+        
+        .car-light {
+            position: absolute;
+            width: 15px;
+            height: 10px;
+            background-color: #f1c40f;
+            top: 50px;
+            left: 265px;
+            border-radius: 5px 0 0 5px;
+        }
+

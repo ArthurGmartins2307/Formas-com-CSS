@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+       header{
+        background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+        font-size: large;
+        align-items: center;
+}
+        header h1{
+            color: rgb(210, 210, 210);
+            text-decoration: none;
+            text-decoration-line: none;
+            text-emphasis: none;
+        }
+
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .robot {
+            position: relative;
+            width: 150px;
+            height: 250px;
+            margin: 30px auto;
+        }
+        
+        .robot-head {
+            position: absolute;
+            width: 100px;
+            height: 80px;
+            background: linear-gradient(135deg, #9b59b6, #3498db);
+            border-radius: 50% 50% 40% 40%;
+            top: 0;
+            left: 25px;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+        }
+        
+        .robot-eye {
+            position: absolute;
+            width: 20px;
+            height: 25px;
+            background-color: white;
+            border-radius: 50%;
+            top: 30px;
+        }
+        
+        .left-eye {
+            left: 30px;
+        }
+        
+        .right-eye {
+            right: 30px;
+        }
+        
+        .robot-body {
+            position: absolute;
+            width: 120px;
+            height: 100px;
+            background: linear-gradient(to right, #2ecc71, #1abc9c);
+            border-radius: 20px;
+            top: 85px;
+            left: 15px;
+            clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+        }
+        
+        .robot-arm {
+            position: absolute;
+            width: 30px;
+            height: 80px;
+            background: linear-gradient(to bottom, #e67e22, #d35400);
+            top: 90px;
+            border-radius: 15px;
+        }
+        
+        .left-arm {
+            left: -20px;
+            transform: rotate(20deg);
+        }
+        
+        .right-arm {
+            right: -20px;
+            transform: rotate(-20deg);
+        }
+        
+        .robot-leg {
+            position: absolute;
+            width: 25px;
+            height: 70px;
+            background: linear-gradient(to bottom, #34495e, #2c3e50);
+            top: 180px;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .left-leg {
+            left: 35px;
+        }
+        
+        .right-leg {
+            right: 35px;
+        }
